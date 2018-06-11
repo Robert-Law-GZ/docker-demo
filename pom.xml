@@ -8,10 +8,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<properties>
-		<docker.image.prefix>robert</docker.image.prefix>
-	</properties>
-
 	<name>docker-demo</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -23,6 +19,7 @@
 	</parent>
 
 	<properties>
+		<docker.image.prefix>robert</docker.image.prefix>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
